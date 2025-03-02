@@ -3,3 +3,4 @@ shapely
 folium
 streamlit
 requests
+plotly

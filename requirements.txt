@@ -1,4 +1,5 @@
-streamlit==1.26.0
-pandas==2.1.0
-geopandas==0.14.0
-plotly==5.17.0
+geopandas
+shapely
+folium
+streamlit
+requests

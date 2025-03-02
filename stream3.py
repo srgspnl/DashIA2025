@@ -4,7 +4,7 @@ import geopandas as gpd
 import plotly.express as px
 
 # Carregando os dados
-file_path = r"C:\Users\User\Documents\Streamlit\global_peace_index.csv"
+file_path = "global_peace_index.csv"
 df = pd.read_csv(file_path, sep=';')
 for col in df.columns[2:]:
     df[col] = df[col].str.replace(',', '.').astype(float)
